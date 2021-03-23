@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use GoldSpecDigital\LaravelEloquentUUID\Database\Eloquent\Uuid;
 
-class Form extends Model
+class TempForm extends Model
 {
     use Uuid;
     use HasFactory;
@@ -15,7 +15,6 @@ class Form extends Model
         'title',
         'description',
         'image_path',
-        'temp_id',
     ];
 
     /**
